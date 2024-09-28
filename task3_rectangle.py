@@ -3,3 +3,9 @@
 # Пример:
 # Ввод: 4, 7
 # Вывод: Периметр: 22, Площадь: 28
+print('Enter two sides of retriangle:')
+a = int(input())
+b = int(input())
+P = 2*a+2*b
+S = a*b
+print('S= ', S, '; P= ', P, sep='')

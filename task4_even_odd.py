@@ -3,3 +3,10 @@
 # Пример:
 # Ввод: 8
 # Вывод: Число 8 четное
+print('Enter your number:')
+a = int(input())
+b = a % 2
+if b ==1:
+    print('Number ', a, ' is odd', sep='')
+if b ==0:
+    print('Number ', a, ' is even', sep='')

@@ -3,3 +3,6 @@
 # Пример:
 # Ввод: 5
 # Вывод: Квадрат: 25, Куб: 125
+print('Enter your number:', end=' ')
+a = int(input())
+print('a^2 =', a**2, 'a^3 =', a**3)

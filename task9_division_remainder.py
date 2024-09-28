@@ -3,3 +3,7 @@
 # Пример:
 # Ввод: 9, 4
 # Вывод: Целое деление: 2, Остаток: 1
+print('Enter number and divisor:')
+a = int(input())
+b = int(input())
+print('Whole division: ', a//b, '; Reminder: ', a%b, sep='')

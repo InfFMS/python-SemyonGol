@@ -3,3 +3,7 @@
 # Пример:
 # Ввод: 123
 # Вывод: 321
+print('Enter your number:')
+s = input()
+s = s[::-1]
+print(s)

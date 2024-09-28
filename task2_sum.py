@@ -3,3 +3,7 @@
 # Пример:
 # Ввод: 3, 5
 # Вывод: Сумма: 8
+print('Enter two numbers:')
+a = int(input())
+b = int(input())
+print('a+b = ', a+b, sep='')
